@@ -1,3 +1,3 @@
 #!/bin/bash
-bash
-. ~/.venv/bin/activate
+
+bash -c ". ~/.venv/bin/activate"
