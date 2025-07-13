@@ -6,5 +6,6 @@ curl https://raw.githubusercontent.com/itsaschoolbus/stuff/refs/heads/main/noble
 useradd -m builder
 passwd builder
 passwd
+chsh builder -s /bin/zsh
 echo "builder ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/custom
 runuser -l builder -c 'byobu-enable'
